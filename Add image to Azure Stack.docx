@@ -8,6 +8,7 @@ Step 2 创建Storage Account
 
 Step 3 上传镜像到Storage Account
 上传至blob存储中，请参考此链接https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal
+注意：如果blob存储不是anonymously accessible，那么添加镜像将会失败
 
 Step 4 添加镜像到marketplace
 https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-add-vm-image
