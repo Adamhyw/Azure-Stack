@@ -1,4 +1,5 @@
-    #https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-powershell-configure-admin
+    #以下为AAD模式登陆方法，ADFS请到“https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-powershell-configure-admin”查询
+    
     $EnvironmentName="Please input a name you want"
     $ArmEndpointName="https://adminmanagement.<region>.<FQDN>"
     # Register an Azure Resource Manager environment that targets your Azure Stack instance. Get your Azure Resource Manager endpoint value from your service provider.
