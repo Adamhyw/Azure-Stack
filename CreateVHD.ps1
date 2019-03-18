@@ -13,6 +13,8 @@ $ISOpath = "ISO image location"
 New-VM -Name $Server -Path $VMLOC -MemoryStartupBytes $ServerRAM -VHDPath $vhdpath -Generation 1 -ErrorAction Stop
 Add-VMDvdDrive -VMName $Server -Path $ISOpath
 
-#3. Start VM，让其自动装系统 
+#3. 启动VM，让其自动装系统 
 Start-VM $Server -ErrorAction Stop
+
+#4. 安装完系统后关闭虚拟机，把VHD拷贝出来即可
 
