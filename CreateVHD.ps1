@@ -17,4 +17,4 @@ Add-VMDvdDrive -VMName $Server -Path $ISOpath
 Start-VM $Server -ErrorAction Stop
 
 #4. 安装完系统后关闭虚拟机，把VHD拷贝出来即可
-
+#对于redhat linux操作系统的设置，请参考https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-redhat-create-upload-vhd
