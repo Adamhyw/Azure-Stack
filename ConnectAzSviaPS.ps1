@@ -1,3 +1,4 @@
+    #https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-powershell-configure-admin
     $EnvironmentName="Please input a name you want"
     $ArmEndpointName="https://adminmanagement.<region>.<FQDN>"
     # Register an Azure Resource Manager environment that targets your Azure Stack instance. Get your Azure Resource Manager endpoint value from your service provider.
