@@ -1,0 +1,2 @@
+https://docs.microsoft.com/en-us/azure/azure-stack/user/azure-stack-quick-create-vm-windows-powershell
+一定要修改挂载镜像那步的相关参数，根据自己上传镜像时设置的参数来修改
