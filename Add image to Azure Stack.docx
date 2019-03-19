@@ -1,6 +1,6 @@
 前提：需要先用powershell连接Azure Stack
 
-Step 1 创建Resource Group
+Step 1 创建Resource Group（可选，可以直接使用已有资源组）
 New-AzureRmResourceGroup -name <RGName> -Location 'locationname'
 
 Step 2 创建Storage Account
