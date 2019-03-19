@@ -16,5 +16,6 @@ Add-VMDvdDrive -VMName $Server -Path $ISOpath
 #3. 启动VM，让其自动装系统 
 Start-VM $Server -ErrorAction Stop
 
-#4. 安装完系统后关闭虚拟机，把VHD拷贝出来即可
+#4. 安装完系统后需要设置系统，请参考以下链接
 #对于linux操作系统的设置，请参考https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-linux
+#对于windows操作系统的设置，请参考https://docs.microsoft.com/en-us/azure/virtual-machines/windows/prepare-for-upload-vhd-image?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json
