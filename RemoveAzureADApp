@@ -7,6 +7,9 @@ $App = Get-AzureRmADApplication
 # 打印所有的AD App并只展示几个关键参数
 $App | ft DisplayName,IdentifierUris,ObjectId
 
+# 打印该账号下的AD App个数
+$App.Count
+
 # 修改deploymentid，该参数可在上面命令输出的IdentifierUris中获取，格式为https://*/<deploymentid>
 $appsToRemove = $App | ?{$_.IdentifierUris -like "https://*/<deploymentid>"} 
 
